@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+h1,
+h3,
+p,
+.navbar-brand,
+.nav-link {
+    font-family: 'supermercado one';
+    color: #BBFF33;
+}
+
+
+p {
+    line-height: 170%;
+}
+
+
+.nav-link:hover {
+    background-color: black;
+    transform: scaleY(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in;
+}
+
+/* About */
+
+.about_intro {
+    display: flex;
+    justify-content: end;
+    margin: 1rem;
+}
+
+.about_intro:hover {
+    background-color: black;
+    padding: 1rem;
+    /* transform: scaleY(0); */
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    line-height: 1.5;
+}
+
+.about {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/* Media queries */
+
+@media (max-width: 992px) {
+
+
+    .col-md-5 img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .project-name {
+        margin-top: 40px;
+    }
+
+
+}
